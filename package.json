@@ -1,0 +1,25 @@
+{
+  "name": "exercicios",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest test/index.test.js",
+    "test:cov": "jest test/index.test.js --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Lucas Leoni",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "nodemon": "^3.0.1"
+  }
+}
